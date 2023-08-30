@@ -2,7 +2,7 @@ body {
 		background: #000 url(https://static.wixstatic.com/media/70ccae_4dcdf26fdb19479fb6f4c604398ee534~mv2.jpg/v1/fill/w_980,h_635,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/70ccae_4dcdf26fdb19479fb6f4c604398ee534~mv2.jpg); /* Фоновый цвет и фоновый рисунок*/
 		color: #fff; /*Цвет текста на странице*/
 		background-attachment: fixed; /* Фон страницы фиксируется */
-		background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
+		background-repeat: no-repeat; /* Изображение повторяется по горизонтали */
 	}
 .dobro { position:relative;
 	left:300px;	
