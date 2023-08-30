@@ -1,0 +1,78 @@
+body {
+		background: #000 url(https://static.wixstatic.com/media/70ccae_4dcdf26fdb19479fb6f4c604398ee534~mv2.jpg/v1/fill/w_980,h_635,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/70ccae_4dcdf26fdb19479fb6f4c604398ee534~mv2.jpg); /* Фоновый цвет и фоновый рисунок*/
+		color: #fff; /*Цвет текста на странице*/
+		background-attachment: fixed; /* Фон страницы фиксируется */
+		background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
+	}
+.dobro { position:relative;
+	left:300px;	
+}
+
+	
+	
+
+
+.Button{
+  display: inline-block;
+  width :20%;
+  padding: 5px 10px;
+  background-color: #80DAEB;
+  border-radius: 15px;
+  left:50;
+  border:none;
+}
+.Button:hover {
+	background-color:#FFFFFF;
+	}
+.imya { text-align:center;
+		color:#00008B
+	}
+.foto { position : absolute; top: 50px;
+           left: 50px; }
+		   
+.text { position : relative ; top: 20px;
+     left: 350px;
+	 color:#000000
+}
+.mainFooter{position : absolute; top: 450px;
+	left: 350px;
+	
+}
+.svidetelstvo{
+width:70%;
+}
+.dostigenie{
+	width:45%;
+}
+
+a {
+
+color:#000000;
+
+text-decoration:none
+
+}
+
+a:active {
+
+color:#000000;
+
+text-decoration:none
+
+}
+
+a:visited {
+
+color:#000000;
+
+text-decoration:none
+
+}
+
+a:hover {
+
+color:#000000;
+
+text-decoration: underline
+
+}
