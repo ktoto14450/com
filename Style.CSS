@@ -27,6 +27,7 @@ body {
 	}
 .imya { text-align:center;
 	clamp(18px,5vw,40px);
+	left: 50%;
 		color:#00008B;
 	}
 .foto { position : absolute; top: 50px;
