@@ -79,24 +79,29 @@ color:#000000;
 text-decoration: underline
 
 }
-.h1 {
-	left:300px;	
-	margin-top: 10px;
-margin-bottom:20px;
-}
-.h2 {
-	margin-top: 10px;
-margin-bottom:20px;
-}
-.h3 {
-	margin-top: 10px;
-margin-bottom:20px;
-}
-.h4 {
-	margin-top: 10px;
-margin-bottom:20px;
-}
-.h5 {
-	margin-top: 10px;
-margin-bottom:20px;
-}
+@media screen { .nomobile { display: block;
+	.h1 {
+		left:300px;	
+		margin-top: 10px;
+	margin-bottom:20px;
+	} 
+	.h2 {
+		margin-top: 10px;
+	margin-bottom:20px;
+	}
+	.h3 {
+		margin-top: 10px;
+	margin-bottom:20px;
+	}
+	.h4 {
+		margin-top: 10px;
+	margin-bottom:20px;
+	}
+	.h5 {
+		margin-top: 10px;
+	margin-bottom:20px;
+	}} } 
+
+@media handheld { .nomobile { display: none; } } 
+
+
