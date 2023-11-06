@@ -102,6 +102,27 @@ text-decoration: underline
 	margin-bottom:20px;
 	}} } 
 
-@media handheld { .nomobile { display: none; } } 
+@media handheld { .nomobile { display: none; 
+	.h1 {
+		left:300px;	
+		margin-top: 10px;
+	margin-bottom:20px;
+	} 
+	.h2 {
+		margin-top: 10px;
+	margin-bottom:20px;
+	}
+	.h3 {
+		margin-top: 10px;
+	margin-bottom:20px;
+	}
+	.h4 {
+		margin-top: 10px;
+	margin-bottom:20px;
+	}
+	.h5 {
+		margin-top: 10px;
+	margin-bottom:20px;
+	}} } 
 
 
