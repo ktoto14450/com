@@ -80,24 +80,25 @@ text-decoration: underline
 
 }
 @media screen { .nomobile { display: block;
-	.h1 {
-		left:300px;	
+	.h1 { position : relative ; top: 20px;
+     left: 350px;
+			
 		margin-top: 10px;
 	margin-bottom:20px;
 	} 
-	.h2 {
+	.h2 {position : relative ;
 		margin-top: 10px;
 	margin-bottom:20px;
 	}
-	.h3 {
+	.h3 {position : relative ;
 		margin-top: 10px;
 	margin-bottom:20px;
 	}
-	.h4 {
+	.h4 {position : relative ;
 		margin-top: 10px;
 	margin-bottom:20px;
 	}
-	.h5 {
+	.h5 {position : relative ;
 		margin-top: 10px;
 	margin-bottom:20px;
 	}} } 
