@@ -1,6 +1,6 @@
 @import url(Style.CSS);
 body {
-		background: #000000 url(); / Фоновый цвет*#00FA9A и фоновый рисунок*/
+		background: *#00FA9A url(); / Фоновый цвет*#00FA9A и фоновый рисунок*/
 		color: #fff; /*Цвет текста на странице*/
 		background-attachment: fixed; /* Фон страницы фиксируется */
 		background-repeat: repeat;
@@ -79,7 +79,7 @@ color:#000000;
 text-decoration: underline
 
 }
-@media screen { display: block;
+@media screen { display: inline-block;
 	.h1 { position : relative ; top: 20px;
      left: 350px;
 			
@@ -103,7 +103,7 @@ text-decoration: underline
 	margin-bottom:20px;
 	} } 
 
-@media handheld { display: block;
+@media handheld { display: inline-block;
 	.h1 { position : relative ; top: 20px;
      left: 350px;
 			
